@@ -3,28 +3,41 @@
 }
 
 body {
-    font-size: 10px;
+    font-size: 13px;
     font-family: Tahoma, Arial;
 }
 
+button {
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+ .button1 {background-color: #4CAF50;}/*Green */
 
 
-div.menu {
+nav {
     width: 100%;
     background-color: #4d5791;
     height: 44px;
     padding: 0 40px;
 }
 
-div.menu ul,
-div.menu ul li {
+nav ul,
+nav ul li {
     margin: 0;
     padding: 0 ;
     list-style: none;
     display: inline-block;
 }
 
-div.menu ul li a {
+nav ul li a {
     display: block;
     padding: 0 20px;
     line-height: 44px;
@@ -34,38 +47,40 @@ div.menu ul li a {
     margin: 0;
 }
 
-div.menu ul li a:hover  {
+nav ul li a:hover  {
     background-color: white;
     color: #4d5791;
 }
 
-div.hero {
+
+
+header {
     height: 350px;
     background-color: #b4c6f0;
-    background-image: url('../bg.png');
+    background-image: url('/pb/bg.png');
     background-size: 400px;
     background-repeat: no-repeat;
     background-position: center bottom;
     padding-top: 40px;
 }
 
-div.hero h1,
-div.hero h2 {
+header h1,
+header h2 {
     text-align: center;
     margin: 0;
 }
 
-div.hero h1 {
+header h1 {
     color: #fff;
     font-size: 4.2em;
     margin-bottom: 20px;
 }
 
-div.hero h2 {
+header h2 {
     color: #4d5791;
 }
 
-.container {
+main {
     padding: 40px;
     width: 100%;
 }
@@ -80,7 +95,7 @@ div.hero h2 {
 figure {
     border: 1px #cccccc solid;
     padding: 4px;
-    margin: auto;
+    margin: center;
   }
 
 /* Semantic HTML CSS change*/
@@ -97,7 +112,7 @@ figcaption {
     display: block;
   } */
 
-.bottom {
+footer {
     height: 50px;
     background-color: #b4c6f0;
     padding: 40px;
@@ -109,7 +124,7 @@ figcaption {
     text-align: center;
 }
 
-.container div.text-box {
+main div.text-box {
     display: inline-block;
     width: 100%;
     max-width: 340px;
@@ -118,7 +133,7 @@ figcaption {
 }
 
 @media screen and (min-width: 768px) {
-    .container .div.text-box {
+    main .div.text-box {
         margin: 10px;
     }
 }
