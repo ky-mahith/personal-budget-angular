@@ -143,10 +143,10 @@ main div.text-box {
 
 /* body {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    width: 960px;
+    /* width: 960px;
     height: 500px;
-    position: relative;
-  } */
+    position: relative; 
+    } */
   
   svg {
       width: 100%;
