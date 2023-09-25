@@ -493,16 +493,17 @@ main article {
   } */
 
 svg {
-    width: 100%;
+
+    width: 75%;
     height: 100%;
 }
 
 path.slice{
-    stroke-width:2px;
+    stroke-width:3px;
 }
 
 polyline{
-    opacity: .3;
+    opacity: .5;
     stroke: black;
     stroke-width: 2px;
     fill: none;
